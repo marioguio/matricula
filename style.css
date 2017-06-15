@@ -1,0 +1,48 @@
+html{
+   display: table;
+   margin: auto;
+}
+body{
+ background: #8e160b;
+ display: table-cell;
+ vertical-align: middle;
+ text-align: center;
+ color: white;
+}
+
+#parrafo{
+  border:  solid 2px white;
+  width: 600px;
+  border-radius: 5%;
+}
+#parrafo p{
+  color: white;
+  margin-left: 20px;
+
+}
+#formulario{
+  color: white;
+  border:  solid 2px white;
+  width: 100%;
+  border-radius: 5%;
+  padding: 20px;
+}
+#formulario label{
+  padding-top: 10px;
+}
+
+#formulario input{
+  margin-top: 10px;
+}
+#detalles{
+  color: white;
+  border:  solid 2px white;
+  width: 100%;
+  border-radius: 5%;
+  padding: 20px;
+
+}
+.nombre{
+  column-count: center;
+  
+}

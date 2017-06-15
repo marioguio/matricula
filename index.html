@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+   <h1>Formulario de Registro</h1>
+   <div id="parrafo">
+    <p>Por favor dilingencie todos los campos....</p>
+   </div>
+   <h2>Datos</h2>
+   <div id="formulario">
+    <form class="" action="index.html" method="post">
+      <span class="nombre">
+       <label for="Name">Nombre</label>
+       <input type="text" name="name" placeholder="Nombre completo">
+      </span>
+      <span class="nombre">
+       <label for="Apellidos">Apellido</label>
+       <input type="text" name="Apellidos" placeholder="Apellido completo">
+      </span>
+      <br>
+      <span>
+       <label for="">Email</label>
+       <input type="email" name="Email" placeholder="ejemplo@hotmal.com">
+      </span>
+      <span>
+       <label for="">Facebook</label>
+       <input type="text" name="Facebook" placeholder="http://www.facebook.com/help/delete_account">
+      </span>
+      <br>
+      <br>
+      <span>
+        <label for="gender">Generos</label><br>
+        <input type="radio" name="gender" value="male">Masculino
+        <input type="radio" name="gender" value="female">Femenino
+      </span>
+      <br>
+      <br>
+      <span>
+        <label for="studies">Estudios</label><br>
+        <input type="checkbox" name="high school" >Bachiller
+        <input type="checkbox" name="high school" >Profesional
+        <input type="checkbox" name="high school" >Tecnico
+        <input type="checkbox" name="high school" >Otro
+      </span>
+      <br>
+      <br>
+      <br>
+      <span>
+        <button type="button" name="button">cancelar</button>
+        <button type="button" name="button">Enviar</button>
+      </span>
+     </form>
+     </div>
+     <h2>Detalles</h2>
+     <div id="detalles">
+       <form class="" action="index.html" method="post">
+       <span>
+        <label for="">Peticion</label>
+        <select class="peticion" name="peticion">
+          <option value="ingreso">Ingreso</option>
+          <option value="reintegro">Reintegro</option>
+          <option value="retiro">Retiro</option>
+          <option value="otros">Otros</option>
+        </select>
+      </span>
+      <span>
+        <label for="fecha">Fecha</label>
+        <input type="date" name="fecha" value="fecha"><br><br>
+      </span>
+      <span>
+        <label for="observaciones"><strong>Observaciones</strong></label><br>
+        <textarea name="name" rows="8" cols="40" placeholder="comentenos su caso.."></textarea>
+      </span>
+      <br>
+      <br>
+      <span>
+        <label for="radicado">#Radicado</label>
+        <input type="number" name="numero" max="9" placeholder="123456789">
+      </span>
+      <span>
+        <label for="">Pagina Wed</label>
+        <input type="url" name="paginawed" placeholder="http://www.ejemplo:com">
+      </span>
+      <br>
+      <br>
+      <span>
+       <button type="button" onclick="alert('gracias por completar el formulario')" name="button">Enviar</button>
+      </span>
+       </form>
+
+
+     </div>
+
+  </body>
+</html>
